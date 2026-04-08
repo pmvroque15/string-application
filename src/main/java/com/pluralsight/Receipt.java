@@ -5,6 +5,6 @@ public class Receipt {
         String name = "Bubble Tea";
         double price = 7.99;
 
-        System.out.print("You bought " + name + "for $" + price);
+        System.out.print("You bought a" + name + "for $" + price);
     }
 }
