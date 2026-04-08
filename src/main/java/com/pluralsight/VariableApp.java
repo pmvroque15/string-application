@@ -20,7 +20,7 @@ public class VariableApp {
         // declare variables here
         //Part I
         String favoriteColor;
-        int yearUpSchoolYear;
+        int javaClass;
         String middleInitial;
         boolean hasPets;
         String niceMessage;
@@ -29,9 +29,21 @@ public class VariableApp {
         int numberDaysOfTheWeek = 7;
         String coffeePrice =  "$4.99";
         char favoriteLetter = 'P';
-        boolean isRaining = False;
+        boolean isRaining = false;
+
         // then code solution
+        favoriteColor = "blue";
+        javaClass = 2026;
+        middleInitial = "V";
+        hasPets = false;
+        niceMessage = "nice"
+
         // then use System.out.println() to display results
+
+        System.out.println("There are " + numberDaysOfTheWeek + " days in a week.");
+        System.out.println("The price of the coffee is " + coffeePrice + "!");
+        System.out.println("My favorite letter is " + favoriteLetter + "!");
+        System.out.println("My favorite letter is " + favoriteLetter + "!");
         // ex: System.out.println("The answer is " + answer);
         // REPEAT FOR NEXT EXERCISE
 
