@@ -25,25 +25,30 @@ public class VariableApp {
         boolean hasPets;
         String niceMessage;
 
+        // then code solution
+        favoriteColor = "blue";
+        javaClass = 2026;
+        middleInitial = "V";
+        hasPets = true;
+        niceMessage = "nice";
+
         //Part II
         int numberDaysOfTheWeek = 7;
         String coffeePrice =  "$4.99";
         char favoriteLetter = 'P';
         boolean isRaining = false;
 
-        // then code solution
-        favoriteColor = "blue";
-        javaClass = 2026;
-        middleInitial = "V";
-        hasPets = false;
-        niceMessage = "nice"
-
         // then use System.out.println() to display results
-
+        System.out.println("My favorite color is " + favoriteColor);
+        System.out.println("I started " + javaClass + " in this Java class.");
+        System.out.println("My middle Initial is " + middleInitial + ".");
+        System.out.println("Do I have pets? " + true);
+        System.out.println("My nice message: " + niceMessage);
+        System.out.println(" ");
         System.out.println("There are " + numberDaysOfTheWeek + " days in a week.");
         System.out.println("The price of the coffee is " + coffeePrice + "!");
         System.out.println("My favorite letter is " + favoriteLetter + "!");
-        System.out.println("My favorite letter is " + favoriteLetter + "!");
+        System.out.println("Is it raining? " + false);
         // ex: System.out.println("The answer is " + answer);
         // REPEAT FOR NEXT EXERCISE
 
